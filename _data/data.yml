@@ -1,0 +1,136 @@
+sidebar:
+    # Profile information
+    name: Bernard Kleynhans
+    tagline: Actuary and Data Scientist 
+    avatar: profile.jpeg
+
+    # Sidebar links
+    email:
+    phone:
+    location: Boston, USA
+    website:
+    linkedin: bernardkleynhans
+    github: bkleyn
+    gitlab:
+    bitbucket:
+    twitter: kleynbernard
+    google-scholar: yXvXqZsAAAAJ
+    pdf:
+
+about:
+    title: About
+    summary: |
+      South African-born actuary and data scientist with a 10-year track record of driving 
+      business value through innovative solutions across multiple industries. Combining a practical 
+      problem-solving approach with a strong foundation in applied research, I excel in tackling 
+      complex business-driven challenges in collaborative, multi-disciplinary environments.
+
+experiences:
+    title: Experience
+    info:
+      - role: | 
+          Fidelity Investments
+        details: |
+          As a Director of Data Science at [Fidelity Investments](https://www.fcatalyst.com/overview), 
+          I lead a talented team focused on personalization, recommender systems, and 
+          marketing optimization in both digital and distribution channels.
+      - role: |
+          Quantium
+        details: |
+          At [Quantium](https://quantium.com/), I honed my analytical skills and became proficient in data analysis, 
+          statistical modeling, and technical communication, while working on a diverse range of projects 
+          across the Insurance, Banking, and Retail industries. Surrounded by a dynamic and talented team at Quantium, 
+          I spent five years there building a solid foundation in analytics and data science. 
+
+          While working, I completed the board exams to become a qualified actuary and receive Fellowship
+          designation from both the [Actuarial Society of South Africa](https://www.actuarialsociety.org.za/) 
+          and the [Actuaries Institute of Australia](https://www.actuaries.asn.au/).
+
+education:
+    title: Education
+    info:
+      - role: | 
+          Harvard University
+        details: |
+          I completed a masters degree in Computational Science and Engineering (CSE) at 
+          [Harvard School of Engineering and Applied Sciences](https://seas.harvard.edu/). 
+          During my time at Harvard, I delved into advanced courses, exploring topics such as decision theory, 
+          optimization, and computing systems. My research project involved numerical methods, optimization, and 
+          large-scale parallel computing to study optimal heat transfer solutions in Rayleigh-Bénard convection.
+      - role: |
+          University of Pretoria
+        details: |
+          I completed a BSc degree in [Actuarial Science and Financial Mathematics](https://www.up.ac.za/insurance-and-actuarial-science) 
+          at University of Pretoria. The program not only provided me with a rigorous academic 
+          foundation in mathematics and statistics, but also cultivated skills needed to develop 
+          realistic solutions to complex problems and with a forward-looking outlook on issues.
+
+projects:
+    title: Projects
+    intro: >
+
+    assignments:
+      - title: Selective
+        link: "https://github.com/fidelity/selective"
+        tagline: "White-box feature selection library that supports supervised and unsupervised 
+                  selection methods. It also provides optimized item selection for exploration in 
+                  recommender systems based on diversity of text embeddings (via [TextWiser](https://github.com/fidelity/textwiser)) 
+                  and label coverage by solving a multi-objective optimization problem 
+                  ([CPAIOR'21](https://link.springer.com/chapter/10.1007/978-3-030-78230-6_27), 
+                  [DSO@IJCAI'22](https://arxiv.org/abs/2112.03105))."
+
+      - title: MabWiser
+        link: "https://github.com/fidelity/mabwiser"
+        tagline: "Research library ([IJAIT 2021](https://www.worldscientific.com/doi/10.1142/S0218213021500214), 
+                  [ICTAI 2019](https://ieeexplore.ieee.org/document/8995418)) 
+                  written in Python for rapid prototyping of multi-armed bandit algorithms. 
+                  It supports context-free, parametric and non-parametric contextual 
+                  bandit models and provides built-in parallelization for both training and testing components."
+
+      - title: Mab2Rec
+        link: "https://github.com/fidelity/mab2rec"
+        tagline: "Recommender Systems library that integrates several other open-source software for 
+                  building bandit-based algorithms. The modular framework was presented at 
+                  [All Things Open 2022](https://2022.allthingsopen.org/speakers/bernard-kleynhans/) and 
+                  [Open Data Science 2023](https://odsc.com/speakers/mab2rec-a-modular-approach-to-building-bandit-based-recommenders/).
+                  There is also a corresponding [blogpost](https://2022.allthingsopen.org/introducing-mab2rec-a-multi-armed-bandit-recommender-library/) 
+                  as a starting point for practioners to build and deploy bandit-based recommenders using Mab2Rec."
+
+publications:
+    title: Publications
+    intro: 
+    papers:
+      - title: "Optimized item selection to boost exploration for recommender systems"
+        link: "https://link.springer.com/chapter/10.1007/978-3-030-78230-6_27"
+        authors: S Kadıoğlu, B Kleynhans, X Wang
+        conference: "Integration of Constraint Programming, AI, and Operations Research, CPAIOR 2021"
+
+      - title: Active Learning Meets Optimized Item Selection
+        link: "https://arxiv.org/pdf/2112.03105.pdf"
+        authors: B Kleynhans, X Wang, S Kadıoğlu
+        conference: arXiv preprint arXiv:2112.03105
+
+      - title: "MABWiser: a parallelizable contextual multi-armed bandit library for Python"
+        link: "https://ieeexplore.ieee.org/abstract/document/8995418"
+        authors: E Strong, B Kleynhans, S Kadioğlu
+        conference: "2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI)"
+
+      - title: "MABWISER: Parallelizable Contextual Multi-armed Bandits"
+        link: "https://www.worldscientific.com/doi/abs/10.1142/S0218213021500214"
+        authors: E Strong, B Kleynhans, S Kadıoğlu
+        conference: "International Journal on Artificial Intelligence Tools 30 (04), 2150021"
+
+      - title: "Automated predictive product recommendations using reinforcement learning"
+        link: "https://patents.google.com/patent/US10936961B1/en"
+        authors: A Jain, D Gupta, S Shekhar, B Kleynhans, S Kadioglu, A Arias-Vargas
+        conference: "US Patent 10,936,961"
+
+interests:
+    title: Interests
+    intro: Outside of work, I enjoy spending time with my wife and 1-year old boy. 
+           We love exploring places, finding good pastries, ice-cream, and friendly dogs to play with.
+           I'm also an avid rugby fan and rock climber (both of which I hope to one day share with my son).
+
+footer: >
+  © 2023 Bernard Kleynhans. All Rights Reserved.
+
