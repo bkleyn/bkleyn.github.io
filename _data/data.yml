@@ -90,11 +90,12 @@ projects:
       - title: Mab2Rec
         link: "https://github.com/fidelity/mab2rec"
         tagline: "Recommender Systems library that integrates several other open-source software for 
-                  building bandit-based algorithms. The modular framework was presented at 
-                  [All Things Open 2022](https://2022.allthingsopen.org/speakers/bernard-kleynhans/) and 
-                  [Open Data Science 2023](https://odsc.com/speakers/mab2rec-a-modular-approach-to-building-bandit-based-recommenders/).
-                  There is also a corresponding [blogpost](https://2022.allthingsopen.org/introducing-mab2rec-a-multi-armed-bandit-recommender-library/) 
-                  as a starting point for practioners to build and deploy bandit-based recommenders using Mab2Rec."
+                  building bandit-based algorithms that I presented at
+                  [All Things Open 2022](https://2022.allthingsopen.org/speakers/bernard-kleynhans/), 
+                  [Open Data Science 2023](https://odsc.com/speakers/mab2rec-a-modular-approach-to-building-bandit-based-recommenders/) and,
+                  [NVIDIA RecSys @ Work 2023](https://info.nvidia.com/recsys-at-work-best-practices-and-insights.html?ondemandrgt=yes#).
+                  See [blogpost](https://2022.allthingsopen.org/introducing-mab2rec-a-multi-armed-bandit-recommender-library/) 
+                  as a starting point for data scientists to build and deploy bandit-based recommenders using Mab2Rec."
 
 publications:
     title: Publications
