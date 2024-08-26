@@ -7,7 +7,7 @@ sidebar:
     # Sidebar links
     email:
     phone:
-    location: Boston, USA
+    location: Australia
     website:
     linkedin: bernardkleynhans
     github: bkleyn
@@ -29,11 +29,17 @@ experiences:
     title: Experience
     info:
       - role: | 
+          Auto & General
+        details: |
+          As a Head of Product AI at Auto & General, I'm leading a team that is delivering
+          AI solutions for product, underwriting, and pricing, helping to provide affortable and dependable
+          insurance to all Australians.
+      - role: | 
           Fidelity Investments
         details: |
           As a Director of Data Science at [Fidelity Investments](https://www.fcatalyst.com/overview), 
-          I lead a talented team focused on personalization, recommender systems, and 
-          marketing optimization in both digital and distribution channels.
+          I led a talented team focused on personalisation, recommender systems, and 
+          marketing optimisation in both digital and distribution channels.
       - role: |
           Quantium
         details: |
@@ -55,7 +61,7 @@ education:
           I completed a masters degree in Computational Science and Engineering (CSE) at 
           [Harvard School of Engineering and Applied Sciences](https://seas.harvard.edu/). 
           During my time at Harvard, I delved into advanced courses, exploring topics such as decision theory, 
-          optimization, and computing systems. My research project involved numerical methods, optimization, and 
+          optimisation, and computing systems. My research project involved numerical methods, optimisation, and 
           large-scale parallel computing to study optimal heat transfer solutions in Rayleigh-Bénard convection.
       - role: |
           University of Pretoria
@@ -73,9 +79,9 @@ projects:
       - title: Selective
         link: "https://github.com/fidelity/selective"
         tagline: "White-box feature selection library that supports supervised and unsupervised 
-                  selection methods. It also provides optimized item selection for exploration in 
+                  selection methods. It also provides optimised item selection for exploration in 
                   recommender systems based on diversity of text embeddings (via [TextWiser](https://github.com/fidelity/textwiser)) 
-                  and label coverage by solving a multi-objective optimization problem 
+                  and label coverage by solving a multi-objective optimisation problem 
                   ([CPAIOR'21](https://link.springer.com/chapter/10.1007/978-3-030-78230-6_27), 
                   [DSO@IJCAI'22](https://arxiv.org/abs/2112.03105))."
 
@@ -133,5 +139,5 @@ interests:
            I'm also an avid rugby fan and rock climber (both of which I hope to one day share with my son).
 
 footer: >
-  © 2023 Bernard Kleynhans. All Rights Reserved.
+  © 2024 Bernard Kleynhans. All Rights Reserved.
 
