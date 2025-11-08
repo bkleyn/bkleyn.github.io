@@ -5,7 +5,7 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
@@ -29,6 +29,18 @@
 
       {% if project.tagline %}
        <span class="project-tagline">{{ project.tagline | markdownify}}</span>
+      {% endif %}
+
+      {% if project.publications %}
+      <div class="project-publications">
+        {% for pub in project.publications %}
+          {% if pub.link %}
+            <a href="{{ pub.link }}" target="_blank">{{ pub.name }}</a>{% unless forloop.last %} • {% endunless %}
+          {% else %}
+            {{ pub.name }}{% unless forloop.last %} • {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div><!--//project-publications-->
       {% endif %}
 
     </div><!--//item-->

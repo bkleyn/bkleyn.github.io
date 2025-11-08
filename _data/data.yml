@@ -20,38 +20,42 @@ sidebar:
 about:
     title: About
     summary: |
-      South African-born actuary and data scientist with extensive experience driving business value through innovative solutions across multiple industries. Combining a practical problem-solving approach with a strong foundation in applied research, I excel in tackling complex business-driven challenges in collaborative, multi-disciplinary environments.
+      South African-born actuary and data scientist with experience across insurance, finance, and retail. I build AI solutions by understanding what the technology can do, what the data actually shows, and how decisions get made in practice.
+
+      This approach has been central to my work leading teams at Auto & General and Fidelity Investments, contributing open-source tools used in production systems, and publishing research on bandits and recommender systems. Fellow of both the Actuarial Society of South Africa and the Actuaries Institute of Australia. Master's degree in Computational Science and Engineering from Harvard.
 
 experiences:
     title: Experience
     info:
       - role: | 
-          Auto & General
+          Head of Product AI, Auto & General
         details: |
-          As Head of Product AI at Auto & General, I lead a team delivering AI solutions for product, underwriting, and pricing, helping to provide affordable and dependable insurance to all Australians.
+          Leading AI initiatives across product, underwriting, and pricing to help provide affordable insurance to Australians. Building systems that enhance decision-making while operating within regulatory frameworks where explainability is fundamental. The work balances innovation with the rigorous standards insurance requires.
       - role: | 
-          Fidelity Investments
+          Director of Data Science, Fidelity Investments
         details: |
-          As Director of Data Science at [Fidelity Investments](https://www.fcatalyst.com/overview), I led a talented team focused on personalisation, recommender systems, and marketing optimisation in both digital and distribution channels.
+          Led a team responsible for personalization, recommender systems, and marketing optimization across digital and distribution channels. Approached personalization as a learning problem using contextual bandits to balance user engagement with preference discovery.
       - role: |
-          Quantium
+          Data Science Consultant, Quantium
         details: |
-          At [Quantium](https://quantium.com/), I honed my analytical skills and became proficient in data analysis, statistical modeling, and technical communication, while working on a diverse range of projects across the Insurance, Banking, and Retail industries.
+          Developed analytical skills across insurance, banking, and retail sectors. Learned to translate between technical capabilities and business needs, building models that stakeholders understood well enough to trust.
 
-          While working, I completed the board exams to become a qualified actuary and received Fellowship designation from both the [Actuarial Society of South Africa](https://www.actuarialsociety.org.za/) and the [Actuaries Institute of Australia](https://www.actuaries.asn.au/).
 
 education:
     title: Education
     info:
       - role: | 
-          Harvard University
+          Master of Engineering, Harvard University
         details: |
-          I completed a Master's degree in Computational Science and Engineering (CSE) at [Harvard School of Engineering and Applied Sciences](https://seas.harvard.edu/). During my time at Harvard, I explored advanced topics such as decision theory, optimisation, and computing systems. My research project involved numerical methods, optimisation, and large-scale parallel computing to study optimal heat transfer solutions in Rayleigh-Bénard convection.
+          Computational Science and Engineering at the [School of Engineering and Applied Sciences](https://seas.harvard.edu/). Explored decision theory, optimization, and computing systems. Research involved numerical methods and large-scale parallel computing for studying optimal heat transfer in Rayleigh-Bénard convection.
       - role: |
-          University of Pretoria
+          Bachelor of Science, University of Pretoria
         details: |
-          I completed a BSc degree in [Actuarial Science and Financial Mathematics](https://www.up.ac.za/insurance-and-actuarial-science) 
-          at University of Pretoria. The program provided me with a rigorous academic foundation in mathematics and statistics, and cultivated skills needed to develop realistic solutions to complex problems with a forward-looking outlook.
+          [Actuarial Science and Financial Mathematics](https://www.up.ac.za/insurance-and-actuarial-science). Rigorous foundation in mathematics and statistics with focus on developing realistic solutions to complex problems.
+      - role: |
+          Actuarial Qualifications
+        details: |
+          Fellow of the [Actuarial Society of South Africa](https://www.actuarialsociety.org.za/) and the [Actuaries Institute of Australia](https://www.actuaries.asn.au/). Completed Fellowship exams while working full-time.
 
 projects:
     title: Projects
@@ -60,15 +64,32 @@ projects:
     assignments:
       - title: Selective
         link: "https://github.com/fidelity/selective"
-        tagline: "White-box feature selection library that supports supervised and unsupervised selection methods. It also provides optimised item selection for exploration in recommender systems based on diversity of text embeddings (via [TextWiser](https://github.com/fidelity/textwiser)) and label coverage by solving a multi-objective optimisation problem ([CPAIOR'21](https://link.springer.com/chapter/10.1007/978-3-030-78230-6_27),[DSO@IJCAI'22](https://arxiv.org/abs/2112.03105))."
+        tagline: "White-box feature selection library supporting supervised and unsupervised methods. Addresses **item selection for exploration** in recommender systems through multi-objective optimization, balancing diversity and label coverage. Used in production environments where understanding feature importance matters."
+        publications:
+          - name: "CPAIOR'21"
+            link: "https://link.springer.com/chapter/10.1007/978-3-030-78230-6_27"
+          - name: "IJCAI'22"
+            link: "https://arxiv.org/abs/2112.03105"
 
       - title: MabWiser
         link: "https://github.com/fidelity/mabwiser"
-        tagline: "Research library ([IJAIT 2021](https://www.worldscientific.com/doi/10.1142/S0218213021500214), [ICTAI 2019](https://ieeexplore.ieee.org/document/8995418)) written in Python for rapid prototyping of multi-armed bandit algorithms. It supports context-free, parametric and non-parametric contextual bandit models and provides built-in parallelization for both training and testing components."
+        tagline: "Research library for **rapid prototyping** of multi-armed bandit algorithms. Supports context-free, parametric and non-parametric contextual models with built-in parallelization. Designed to handle real-world deployment challenges: changing contexts, delayed feedback, and explainable decisions at scale."
+        publications:
+          - name: "IJAIT 2021"
+            link: "https://www.worldscientific.com/doi/10.1142/S0218213021500214"
+          - name: "ICTAI 2019"
+            link: "https://ieeexplore.ieee.org/document/8995418"
 
       - title: Mab2Rec
         link: "https://github.com/fidelity/mab2rec"
-        tagline: "Recommender Systems library that integrates several other open-source software for building bandit-based algorithms that I presented at [All Things Open 2022](https://2022.allthingsopen.org/speakers/bernard-kleynhans/), [ODSC 2023](https://odsc.com/speakers/mab2rec-a-modular-approach-to-building-bandit-based-recommenders/) and, [NVIDIA RecSys @ Work 2023](https://info.nvidia.com/recsys-at-work-best-practices-and-insights.html?ondemandrgt=yes#)."
+        tagline: "Recommender systems library integrating bandit-based algorithms for **exploration-exploitation trade-offs**. Makes learning objectives explicit and tunable, allowing teams to balance confident recommendations with discovering user preferences. Modular design integrates with existing recommendation infrastructure."
+        publications:
+          - name: "All Things Open 2022"
+            link: "https://2022.allthingsopen.org/speakers/bernard-kleynhans/"
+          - name: "ODSC 2023"
+            link: "https://odsc.com/speakers/mab2rec-a-modular-approach-to-building-bandit-based-recommenders/"
+          - name: "NVIDIA RecSys @ Work 2023"
+            link: "https://info.nvidia.com/recsys-at-work-best-practices-and-insights.html?ondemandrgt=yes#"
 
 publications:
     title: Publications
@@ -99,23 +120,28 @@ publications:
         authors: A Jain, D Gupta, S Shekhar, B Kleynhans, S Kadioglu, A Arias-Vargas
         conference: "US Patent 10,936,961"
 
+perspective:
+    title: Perspective
+    content: |
+      The best AI solutions start with understanding how decisions actually get made, not how we think they should be made. Technical excellence matters less than whether a model fits how the business operates and inspires enough confidence to be used. In regulated industries especially, this means spending as much time on business domain, regulatory constraints, and organizational decision processes as on algorithms.
+
+      Given how rapidly AI capabilities are evolving, adaptability matters as much as expertise. The technology we use to solve problems is changing, and the problems themselves are shifting as new capabilities emerge. I look for people who stay curious about these changes and can thoughtfully evaluate when new approaches actually serve business needs versus when established methods remain the right choice.
+
 volunteering:
-    title: Outreach & Volunteering
+    title: Service
     info:
-      - role: Innovative Applications of Artificial Intelligence Conference
+      - role: Program Committee Member, IAAI-25 & IAAI-26
         link: "https://aaai.org/conference/aaai/aaai-26/iaai-26-call/"
         details: |
-          Serving as a program committee member for IAAI-25 and IAAI-26 conferences, evaluating submissions focused on deployed AI applications and their real-world impact.
-      - role: Actuaries Institute
+          Evaluating submissions for the Innovative Applications of Artificial Intelligence Conference focused on deployed AI applications and real-world impact.
+      - role: Volunteer, Actuaries Institute Australia
         link: "https://www.actuaries.asn.au/" 
         details: |
-          Active volunteer with the Actuaries Institute, contributing as an examiner for professional qualification exams and supporting the development of the next generation of actuaries in Australia.
+          Contributing as examiner for professional qualification exams and supporting development of the next generation of actuaries.
 
 interests:
     title: Interests
-    intro: Outside of work, I enjoy spending time with my wife and our son. 
-           We love exploring places, finding good pastries, ice-cream, and friendly dogs to play with.
-           I'm also an avid rugby fan and rock climber (both of which I hope to one day share with my son).
+    intro: Outside work, I spend weekends with my wife and son exploring Brisbane, finding good pastries, ice cream spots, and friendly dogs. Rugby fan with a particular soft spot for the Springboks. I also climb regularly, drawn to the problem-solving aspect as much as the physical challenge. Both rugby and climbing are things I'm looking forward to sharing with my son when he's ready.
 
 footer: >
   © 2025 Bernard Kleynhans. All Rights Reserved.
