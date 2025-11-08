@@ -1,0 +1,38 @@
+{% assign volunteering = site.data.data.volunteering %}
+{% if volunteering %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-hands-helping fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ volunteering.title }}
+  </h2>
+
+  {% if volunteering.intro %}
+  <div class="intro">
+      <p>{{ volunteering.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for item in volunteering.info %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if item.link %}
+        <a href="{{ item.link }}" target="_blank">{{ item.role }}</a>
+        {% else %}
+        {{ item.role }}
+        {% endif %}
+      </span>
+
+      {% if item.details %}
+       <span class="project-tagline">{{ item.details | markdownify}}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
